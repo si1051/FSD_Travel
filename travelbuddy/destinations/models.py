@@ -10,6 +10,7 @@ from .custom_queries import DestinationQuerySet
 User = get_user_model()
 now = str(datetime.now())
 
+
 # implement adding images later
 class DestinationManager(models.Manager):
     def get_queryset(self):
